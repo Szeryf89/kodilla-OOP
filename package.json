@@ -1,0 +1,23 @@
+{
+  "name": "kodilla-OOP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Szeryf89/kodilla-OOP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Szeryf89/kodilla-OOP/issues"
+  },
+  "homepage": "https://github.com/Szeryf89/kodilla-OOP#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
