@@ -28,8 +28,8 @@ newGame.printInfo();
 
 //module 11.5
 
-function Button() {
-    this.text = 'Hello';
+function Button(text) {
+    this.text = textButton;
     }
 
 Button.prototype = {
@@ -44,6 +44,7 @@ Button.prototype = {
     }
 }
 
-var btn1 = new Button('Hello!');
+var textButton = prompt('enter text button');
+var btn = new Button('Hello!');
 
-btn1.create();
+btn.create();
