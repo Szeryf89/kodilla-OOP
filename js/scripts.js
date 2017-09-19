@@ -25,3 +25,25 @@ var getPrice = prompt('How much does it cost');
 var newGame = new boardGame (getTitle, getMinumumAge, getPlayers, getGameTime, getPrice);
 
 newGame.printInfo();
+
+//module 11.5
+
+function Button() {
+    this.text = 'Hello';
+    }
+
+Button.prototype = {
+    create: function() {
+        var self = this;
+        this.$element = $('<button>');
+        this.$element.text(this.text);
+        this.$element.click(function() {
+            alert(self.text);
+        });
+        $('body').append(this.$element);
+    }
+}
+
+var btn1 = new Button('Hello!');
+
+btn1.create();
